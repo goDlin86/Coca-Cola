@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4BC2868259B6D7E00766B0B /* ScrollingBottles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC2867259B6D7E00766B0B /* ScrollingBottles.swift */; };
+		D4CEF7F0259A346600A9CBF7 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CEF7EF259A346600A9CBF7 /* ItemView.swift */; };
 		D4E9579525938A9600DC6D04 /* Coca_ColaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9579425938A9600DC6D04 /* Coca_ColaApp.swift */; };
 		D4E9579725938A9600DC6D04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9579625938A9600DC6D04 /* ContentView.swift */; };
 		D4E9579925938A9A00DC6D04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E9579825938A9A00DC6D04 /* Assets.xcassets */; };
 		D4E9579C25938A9A00DC6D04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E9579B25938A9A00DC6D04 /* Preview Assets.xcassets */; };
+		D4E957A625938CBB00DC6D04 /* Bottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E957A525938CBB00DC6D04 /* Bottle.swift */; };
+		D4E957A925938D9900DC6D04 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E957A825938D9900DC6D04 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4BC2867259B6D7E00766B0B /* ScrollingBottles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingBottles.swift; sourceTree = "<group>"; };
+		D4CEF7EF259A346600A9CBF7 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		D4E9579125938A9600DC6D04 /* Coca-Cola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coca-Cola.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E9579425938A9600DC6D04 /* Coca_ColaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coca_ColaApp.swift; sourceTree = "<group>"; };
 		D4E9579625938A9600DC6D04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -21,6 +27,8 @@
 		D4E9579B25938A9A00DC6D04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D4E9579D25938A9A00DC6D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E9579E25938A9A00DC6D04 /* Coca_Cola.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Coca_Cola.entitlements; sourceTree = "<group>"; };
+		D4E957A525938CBB00DC6D04 /* Bottle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bottle.swift; sourceTree = "<group>"; };
+		D4E957A825938D9900DC6D04 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				D4E9579D25938A9A00DC6D04 /* Info.plist */,
 				D4E9579E25938A9A00DC6D04 /* Coca_Cola.entitlements */,
 				D4E9579A25938A9A00DC6D04 /* Preview Content */,
+				D4E957A525938CBB00DC6D04 /* Bottle.swift */,
+				D4E957A825938D9900DC6D04 /* MenuView.swift */,
+				D4CEF7EF259A346600A9CBF7 /* ItemView.swift */,
+				D4BC2867259B6D7E00766B0B /* ScrollingBottles.swift */,
 			);
 			path = "Coca-Cola";
 			sourceTree = "<group>";
@@ -98,7 +110,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1220;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					D4E9579025938A9600DC6D04 = {
 						CreatedOnToolsVersion = 12.2;
@@ -140,7 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E957A625938CBB00DC6D04 /* Bottle.swift in Sources */,
+				D4BC2868259B6D7E00766B0B /* ScrollingBottles.swift in Sources */,
+				D4E957A925938D9900DC6D04 /* MenuView.swift in Sources */,
 				D4E9579725938A9600DC6D04 /* ContentView.swift in Sources */,
+				D4CEF7F0259A346600A9CBF7 /* ItemView.swift in Sources */,
 				D4E9579525938A9600DC6D04 /* Coca_ColaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Coca-Cola/Coca_Cola.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Coca-Cola/Preview Content\"";
@@ -293,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Coca-Cola/Coca_Cola.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Coca-Cola/Preview Content\"";
